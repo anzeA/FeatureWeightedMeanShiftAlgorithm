@@ -34,8 +34,8 @@ WBMS=function(X,h,lambda=1,tmax=30){
     w=exp(-D/lambda)
     w=w/sum(w)
     X2=X1
-    cat(t)
-    cat('\n')
+    #cat(t)
+    #cat('\n')
   }
   X1=X
   X2=X
@@ -64,10 +64,10 @@ WBMS=function(X,h,lambda=1,tmax=30){
     w=exp(-D/lambda)
     w=w/sum(w)
     X2=X1
-    if(t%%50==0){
-      cat(t)
-      cat('\n')
-    }
+    #if(t%%50==0){
+    #  cat(t)
+    #  cat('\n')
+    #}
   }
   return(list(X2,w))
 }

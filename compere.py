@@ -23,7 +23,7 @@ def create_defoult_parms(k):
     parms['dp_means'] = {'lambda_': 1}
     parms['kmeans'] = {'k': k}
     parms['gmeans'] = {'k': k}
-    parms['wbms'] = {'h': 0.35, 'lambda_': 0.01}
+    parms['wbms'] = {'h': 0.35, 'lambda_': 0.005}
     parms['wbms_authors'] = {'h': 0.1, 'lambda_': 10}
     return parms
 

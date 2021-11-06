@@ -12,7 +12,7 @@ from sklearn.cluster import MeanShift
 
 
 def get_clusters_wbms(data, h, lambda_, max_iter=100):
-    wbms = WBMS(h, lambda_, max_iter)
+    wbms = WBMS(h, lambda_, max_iter=max_iter)
     wbms.fit(data)
     return wbms.labels_
 
