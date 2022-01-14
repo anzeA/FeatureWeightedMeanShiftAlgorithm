@@ -1,12 +1,31 @@
-| Algorithm                          | Implentation                                   |
-| ---------------------------------- | ---------------------------------------------- |
-| k-means                            | pyclustetring                                  |
-| Blurring Mean Shift (BMS)          | pyclustetring                                  |
-| Gaussian means (G-means)           | pyclustetring                                  |
-| Dirichlet Process means (DP-means) | R https://rdrr.io/cran/maotai/man/dpmeans.html |
-| Entropy Weighted DP-means (EWDP)   | R https://github.com/DebolinaPaul/EWDP         |
-| Robust Continuous Clustering (RCC) | https://github.com/yhenon/pyrcc                |
-| WG-means                           | https://github.com/SaptarshiC98/-WG--means     |
+# Automated Clustering of High-dimensional Data with a Feature Weighted Mean Shift Algorithm
+
+This repository implement clustering algorithem [Feature Weighted Mean Shift Algorithm](https://www.aaai.org/AAAI21Papers/AAAI-2608.ChakrabortyS.pdf)
 
 
+## Environment
 
+`conda create -n env python=3.9`
+
+`conda activate env`
+
+
+`conda install -c anaconda scikit-learn`
+
+`conda install -c anaconda scipy`
+
+`conda install -c anaconda seaborn`
+
+`conda install pandas`
+
+`conda install pandas`
+
+`pip install pyclustering`
+
+Also make sure that `Rscript.exe` is in your path.
+
+Code was tasted only on windows 10.
+
+## Results
+
+Jupyter notebook `simulation.ipynb` contains demos and experiments.
